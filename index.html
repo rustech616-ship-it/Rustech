@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rustech | POS & IT Solutions</title>
+    <title>Rustech | Enterprise POS, Embedded Systems & IT Infrastructure</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for High-End Tech Identity -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <!-- Header / Navigation -->
     <header>
         <div class="container navbar">
             <div class="logo">
@@ -18,8 +24,8 @@
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact" class="btn-primary">Get in Touch</a></li>
+                    <li><a href="#about">Core Strengths</a></li>
+                    <li><a href="#contact" class="btn-nav">Get Started</a></li>
                 </ul>
             </nav>
             <div class="menu-toggle" id="mobile-menu">
@@ -30,93 +36,157 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container hero-content">
-            <h2>Innovative IT Solutions <br>for Your Business</h2>
-            <p>From cutting-edge Point of Sale systems to robust embedded networks, Rustech powers your digital transformation.</p>
+            <div class="tagline"><span class="mono-tag">// ENTERPRISE IT ENGINEERING</span></div>
+            <h2>We engineer the infrastructure that powers your business.</h2>
+            <p>Rustech delivers mission-critical hardware-to-software technology solutions. From seamless retail Point of Sale deployment to advanced embedded systems and highly secure corporate networks.</p>
             <div class="hero-buttons">
-                <a href="#services" class="btn-primary">Our Services</a>
-                <a href="#contact" class="btn-secondary">Contact Us</a>
+                <a href="#services" class="btn-primary">Explore Infrastructure Services</a>
+                <a href="#contact" class="btn-secondary">Request Consultation</a>
             </div>
         </div>
     </section>
 
+    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <div class="section-title">
-                <h2>Our Services</h2>
-                <p>We provide end-to-end technology solutions tailored to your operational needs.</p>
+                <span class="mono-tag">01 / CAPABILITIES</span>
+                <h2>Our Engineering Ecosystem</h2>
+                <p>Comprehensive technology solutions built on reliability, speed, and clean code architectures.</p>
             </div>
             
             <div class="services-grid">
+                <!-- Service 1 -->
                 <div class="service-card">
-                    <div class="icon"><i class="fas fa-cash-register"></i></div>
-                    <h3>Point of Sale (POS)</h3>
-                    <p>Streamline your retail or hospitality operations with our reliable, secure, and smart POS software and hardware solutions.</p>
+                    <div class="card-image">
+                        <!-- Replace src with your own local image paths or hosted URLs as needed -->
+                        <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRMeZFR_RhRNA1AIntNhV_959w1ADZULYQ2eICW4qfZGDEvymwXaQSHOKvetniLK0CyaTGEf83ZSpQu9H0" alt="Modern Point of Sale System">
+                    </div>
+                    <div class="card-content">
+                        <div class="icon"><i class="fas fa-cash-register"></i></div>
+                        <h3>Point of Sale (POS) Solutions</h3>
+                        <p>End-to-end retail and hospitality tech. We deploy secure, cloud-synced hardware and software ecosystems tailored to maximize checkout speed, manage multi-location inventories, and secure financial auditing data flawlessly.</p>
+                    </div>
                 </div>
+
+                <!-- Service 2 -->
                 <div class="service-card">
-                    <div class="icon"><i class="fas fa-laptop-code"></i></div>
-                    <h3>Web & App Development</h3>
-                    <p>Custom, responsive websites and feature-rich mobile applications built to scale your digital presence.</p>
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTQ4-iYzdJBBOX1Yetcqm0luviTcpToMe9GbMoVnWDurh8Xj_TMXKyRpsdLlhYqIk2pekkw0jmFkKJk5ho" alt="Software Development on Laptop">
+                    </div>
+                    <div class="card-content">
+                        <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Web & App Development</h3>
+                        <p>High-availability corporate websites and scalable web applications engineered using modern tech stacks. Optimized for premium security, exceptional performance speeds, and responsive layouts across every device platform.</p>
+                    </div>
                 </div>
+
+                <!-- Service 3 -->
                 <div class="service-card">
-                    <div class="icon"><i class="fas fa-microchip"></i></div>
-                    <h3>Embedded Systems</h3>
-                    <p>Specialized hardware programming and IoT firmware development designed for precision and performance.</p>
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRo7K3xF1uamap4L6wQ9eapjRzFQ2DHkHjZAp8zxWpWK-KpfXfSWDbetvV4mUblVc6ovnRE4786Y3qG7-c" alt="Embedded Systems Microcontroller">
+                    </div>
+                    <div class="card-content">
+                        <div class="icon"><i class="fas fa-microchip"></i></div>
+                        <h3>Embedded System Engineering</h3>
+                        <p>Custom low-level firmware architecture, microcontrollers, and IoT sensor network programming. We bridge raw physical hardware with digital intelligence, building efficient, high-stability automated ecosystems.</p>
+                    </div>
                 </div>
+
+                <!-- Service 4 -->
                 <div class="service-card">
-                    <div class="icon"><i class="fas fa-network-wired"></i></div>
-                    <h3>Networking Services</h3>
-                    <p>Secure, high-speed infrastructure setup, optimization, and maintenance to keep your business securely connected.</p>
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRt4esvzBr7Y7AAziKJbdPmnSx7ZDVsJo14Mtadzr8SlHdmUwas1GkJxvA07ZJWafuz6oewpRmTsmiMUUg" alt="Data Center Networking Infrastructure">
+                    </div>
+                    <div class="card-content">
+                        <div class="icon"><i class="fas fa-network-wired"></i></div>
+                        <h3>Advanced Networking & Systems</h3>
+                        <p>Enterprise layout design, secure intranet setups, topology configuration, and robust firewalls. We construct resilient network backbones that minimize downtime while offering hardened defense perimeters against data breaches.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- About / Value Proposition Section -->
     <section id="about" class="about">
         <div class="container about-wrapper">
             <div class="about-text">
-                <h2>Why Choose Rustech?</h2>
-                <p>At Rustech, we bridge the gap between complex engineering and everyday business utility. Whether you need an integrated retail checkout system, a custom corporate application, or robust local network architecture, our expert team delivers reliable, high-performance IT infrastructure.</p>
-                <ul class="benefits-list">
-                    <li><i class="fas fa-check-circle"></i> 24/7 Technical Support</li>
-                    <li><i class="fas fa-check-circle"></i> Highly Scalable Architecture</li>
-                    <li><i class="fas fa-check-circle"></i> Security-First Approach</li>
-                </ul>
+                <span class="mono-tag">02 / CORE STRENGTHS</span>
+                <h2>Why Companies Trust Rustech</h2>
+                <p class="lead">We treat tech infrastructure as your business's central central nervous system—it needs to be fast, invisible, and completely secure.</p>
+                
+                <div class="strengths-grid">
+                    <div class="strength-item">
+                        <h4><i class="fas fa-shield-halved"></i> Security-First Frameworks</h4>
+                        <p>From network routing policies down to embedded firmware code, safety is woven into every phase of engineering.</p>
+                    </div>
+                    <div class="strength-item">
+                        <h4><i class="fas fa-layer-group"></i> Cross-Disciplinary Mastery</h4>
+                        <p>We are one of the few partners who seamlessly integrate mechanical firmware, digital networks, and consumer software applications together.</p>
+                    </div>
+                    <div class="strength-item">
+                        <h4><i class="fas fa-clock"></i> Zero-Downtime Mentality</h4>
+                        <p>We build failsafes and high redundancy into operations so your Point of Sale systems and cloud apps remain running non-stop.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
-                <h2>Contact Us</h2>
-                <p>Let's discuss how we can elevate your business operations.</p>
+                <span class="mono-tag">03 / INTAKE</span>
+                <h2>Initiate Your Infrastructure Upgrade</h2>
+                <p>Drop your details below. An engineer from our team will respond within 12 business hours.</p>
             </div>
             <div class="form-container">
                 <form id="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" required placeholder="Your Name">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="Alex Mercer">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Corporate Email</label>
+                            <input type="email" id="email" required placeholder="alex@company.com">
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required placeholder="Your Email Address">
+                        <label for="service-type">Primary Requirement</label>
+                        <select id="service-type">
+                            <option value="pos">Point of Sale (POS) Deployment</option>
+                            <option value="dev">Web / App Development</option>
+                            <option value="embedded">Embedded Systems Engineering</option>
+                            <option value="network">Enterprise Networking</option>
+                            <option value="multi">Comprehensive IT Management</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                        <label for="message">Project Parameters & Scope</label>
+                        <textarea id="message" rows="5" required placeholder="Provide a breakdown of your current requirements, timeline, or operational issues..."></textarea>
                     </div>
-                    <button type="submit" class="btn-primary">Send Message</button>
+                    <button type="submit" class="btn-submit">Submit Requirements <i class="fas fa-arrow-right"></i></button>
                 </form>
                 <div id="form-response" class="form-response hidden"></div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Rustech. All rights reserved.</p>
+            <div class="footer-logo">
+                <h2>Rus<span>tech</span></h2>
+                <p>Hardware Precision. Software Innovation.</p>
+            </div>
+            <hr class="footer-divider">
+            <p class="copyright">&copy; 2026 Rustech. Engineered globally. All rights reserved.</p>
         </div>
     </footer>
 
